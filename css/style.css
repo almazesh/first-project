@@ -1,0 +1,166 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.navbar {
+  background-color: rgba(0,0,0,0.8);
+  padding: 30px 0;
+}
+
+.container {
+  width: 1180px;
+  margin: auto;
+}
+
+.nav_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_top_left {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav_top_lang {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 5px;
+}
+
+.nav_top_lang img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+
+.nav_top_city {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 5px;
+}
+
+.nav_top_city img {
+  width: 20px;
+  height: 20px;
+}
+
+.nav_top_sells p{
+  color: white;
+  background-color: brown;
+  box-shadow: 0 0 5px  red;
+  padding: 5px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.nav_top_vacancy p {
+  color: white;
+  background-color: orange;
+  box-shadow: 0 0 5px  orange;
+  padding: 5px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.nav_top_right p {
+  color: white;
+  background-color: green;
+  box-shadow: 0 0 5px  green;
+  padding: 5px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+
+.nav_bottom {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_bottom_left {
+  display: flex;
+}
+
+.burger {
+  border: 1px solid white;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.nav_bottom_left_content .burger div {
+  width: 20px;
+  height: 2px;
+  margin: 3px 0;
+  background-color: white;
+}
+
+.nav_bottom_left_content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav_bottom_left_content h1 {
+  color: white;
+}
+
+
+.nav_bottom_right {
+  width: 50%;
+}
+
+.nav_bottom_right_content input {
+  width: 100%;
+  padding: 15px 5px;
+  border-radius: 20px;
+  border:0;
+  outline: 0;
+  background: rgba(228, 144, 144, 0.4);
+  color: white;
+}   
+
+.nav_bottom_right_content .search {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 30%;
+  right: 3%;
+}
+
+.nav_bottom_right_content {
+  position: relative;
+}
